@@ -2,7 +2,7 @@
 
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import MovieCard from "./movie-card";
-import { searchMovies } from "actions/movieAction";
+import { searchMovies } from "actions/movieActions";
 import { Spinner } from "@material-tailwind/react";
 import { useEffect } from "react";
 import { useRecoilValue } from "recoil";
